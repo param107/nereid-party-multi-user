@@ -69,6 +69,5 @@ setup(name='trytond_%s' % module_name,
     """ % {'module': module_name},
     test_suite='tests',
     test_loader='trytond.test_loader:Loader',
-    tests_require=['mock'],
 )
 
